@@ -1,0 +1,14 @@
+¿Qué color es?
+Es rosado.
+
+¿Qué color es?
+Es amarillo.
+
+¿Qué color es?
+Es color café.
+
+¿Qué color es?
+Es anaranjado.
+
+¿Qué color es?
+Es azul.
