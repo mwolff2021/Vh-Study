@@ -34,48 +34,48 @@ public class ColorChange : MonoBehaviour
 		r.enabled = false;
 		subs.text = "¡Hola! Vamos aprendernos los colores. Repeta.";
 		//"Hello! We are going to learn the colors. Repeat after me."
-		yield return new WaitForSeconds(7.0f * tscale); //7, times could be more accurate.
+		yield return new WaitForSeconds(7.25f * tscale); //7.25
 		r.enabled = true;
 		
 		m.color = Color.red;
 		subs.text = "Rojo\nRojo";
-		yield return new WaitForSeconds(5.0f * tscale); //12
+		yield return new WaitForSeconds(5.0f * tscale); //12.25
 		
 		m.color = Color.blue;
 		subs.text = "Azul\nAzul";
-		yield return new WaitForSeconds(5.0f * tscale); //17
+		yield return new WaitForSeconds(4.75f * tscale); //17
 		
 		m.color = Color.green;
 		subs.text = "Verde\nVerde";
-		yield return new WaitForSeconds(4.0f * tscale); //21
+		yield return new WaitForSeconds(4.25f * tscale); //21.25
 		
 		m.color = Color.white;
 		subs.text = "Blanco\nBlanco";
-		yield return new WaitForSeconds(4.0f * tscale); //25
+		yield return new WaitForSeconds(4.25f * tscale); //25.5
 		
 		m.color = Color.black;
 		subs.text = "Negro\nNegro";
-		yield return new WaitForSeconds(4.0f * tscale); //29
+		yield return new WaitForSeconds(4.5f * tscale); //30
 		
 		m.color = Color.yellow;
 		subs.text = "Amarillo\nAmarillo";
-		yield return new WaitForSeconds(5.0f * tscale); //34
+		yield return new WaitForSeconds(5.0f * tscale); //35
 		
 		m.color = orange;
 		subs.text = "Anaranjado\nAnaranjado";
-		yield return new WaitForSeconds(6.0f * tscale); //40
+		yield return new WaitForSeconds(7.0f * tscale); //42
 		
 		m.color = brown;
 		subs.text = "Color café\nColor café";
-		yield return new WaitForSeconds(6.0f * tscale); //46
+		yield return new WaitForSeconds(5.25f * tscale); //47.25
 		
 		m.color = Color.grey;
 		subs.text = "Gris\nGris";
-		yield return new WaitForSeconds(5.0f * tscale); //51
+		yield return new WaitForSeconds(5.0f * tscale); //52.25
 		
 		m.color = pink;
 		subs.text = "Rosado\nRosado";
-		yield return new WaitForSeconds(6.0f * tscale); //57
+		yield return new WaitForSeconds(4.75f * tscale); //57
 		
 		r.enabled = false;
 		subs.text = "";
@@ -87,33 +87,33 @@ public class ColorChange : MonoBehaviour
 		m.color = pink;
 		subs.text = "¿Qué color es?";
 		//"What color is this?"
-		yield return new WaitForSeconds(1.0f * tscale); //Needs to be timed
+		yield return new WaitForSeconds(5.0f * tscale); //5
 		subs.text = "Es rosado.";
-		yield return new WaitForSeconds(1.0f * tscale); //Needs to be timed
+		yield return new WaitForSeconds(2.5f * tscale); //7.5
 		
 		m.color = Color.yellow;
 		subs.text = "¿Qué color es?";
-		yield return new WaitForSeconds(1.0f * tscale); //
+		yield return new WaitForSeconds(2.5f * tscale); //10
 		subs.text = "Es amarillo.";
-		yield return new WaitForSeconds(1.0f * tscale); //Needs to be timed
+		yield return new WaitForSeconds(3.0f * tscale); //13
 		
 		m.color = brown;
 		subs.text = "¿Qué color es?";
-		yield return new WaitForSeconds(1.0f * tscale); //
+		yield return new WaitForSeconds(3.0f * tscale); //16
 		subs.text = "Es color café.";
-		yield return new WaitForSeconds(1.0f * tscale); //Needs to be timed
+		yield return new WaitForSeconds(3.0f * tscale); //19
 		
 		m.color = orange;
 		subs.text = "¿Qué color es?";
-		yield return new WaitForSeconds(1.0f * tscale); //
+		yield return new WaitForSeconds(3.0f * tscale); //22
 		subs.text = "Es aranjado.";
-		yield return new WaitForSeconds(1.0f * tscale); //Needs to be timed
+		yield return new WaitForSeconds(3.0f * tscale); //25
 		
 		m.color = Color.blue;
 		subs.text = "¿Qué color es?";
-		yield return new WaitForSeconds(1.0f * tscale); //
+		yield return new WaitForSeconds(2.75f * tscale); //27.75
 		subs.text = "Es azul.";
-		yield return new WaitForSeconds(1.0f * tscale); //Needs to be timed
+		yield return new WaitForSeconds(2.25f * tscale); //30
 		
 		r.enabled = false;
 		subs.text = "";
